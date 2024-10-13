@@ -54,10 +54,12 @@ public class Game
                 if (choice == 1)
                 {
                     System.out.println("You attempt to run from your kidnapper. Unfortunately, you run straight into a massive sinkhole that you somehow didn't notice.\nYou die as a coward.\nBad Ending 2 (5/7)");
+                    System.exit(0);
                 }
                 if (choice == 2)
                 {
                     System.out.println("You attempt to fight your kidnapper. You run up to him and use your decades of professional MMA skills to subdue him.\nCongratulations, you win!\nGood Ending 2 (6/7)");
+                    System.exit(0);
                 }
             }
             if (choice == 2)
